@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__top bg-[#6244A3] py-[14px] text-center relative">
+            <p class="text-[#FFFFFF]">Free worldwide shipping for orders over $55. <a class="ml-1" href="#">Shop now</a></p>
+            <img class="absolute top-[30%] right-10 cursor-pointer" src="./images/close-btn.svg" alt="Close btn image" width="25" height="25">
+        </div>
+        <div class="header__bottom py-6 relative">
+            <nav class="flex column items-center justify-center gap-8 text-[#697586]">
+                <a href="#">Products</a>
+                <a href="#">Story</a>
+                <a href="#">Blog</a>
+                <a href="#">Collections</a>
+                <a href="#">Contact</a>
+            </nav>
+            <nav class="flex gap-2 absolute top-4 right-20">
+                <button class="flex items-center justify-center border-[#CDD5DF] rounded-full py-[9px] px-[21px] border-[1px] hover:bg-[#CF4D74] hover:text-[#FFFFFF] duration-500"><img class="mr-1" src="./images/card-btn.svg" alt="icon"> Cart</button>
+                <button class="flex items-center justify-center rounded-full py-[9px] px-[21px] border-[1px] bg-[#CF4D74] text-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#202939] duration-500">Subscribe</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero__section bg-[#EDEBF7] pb-[87px]">
+            <div class="container mx-auto px-[80px]">
+                <div class="hero__records w-[560px] pt-[78px]">
+                    <h2 class="text-[#3C2769] mb-[28px] font-normal text-[56px] leading-[67px]">Hydrated skin in 3 easy steps</h2>
+                    <p class="mb-[37px] text-[#3C2769] font-normal text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros 
+                        elementum tristique duis Cursus mi quis viverra ornare.
+                    </p>
+                    <div class="flex gap-4 mb-[209px]">
+                        <button class="flex items-center justify-center rounded-full py-[17px] border-[#CDD5DF] px-[33px] border-[1px] bg-[#CF4D74] text-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#202939] duration-500">Shop now</button>
+                        <button class="flex items-center justify-center border-[#CDD5DF] text-[#202939] rounded-full py-[17px] bg-[#FFFFFF] px-[33px] border-[1px] ease-linear hover:bg-[#CF4D74] hover:text-[#FFFFFF] duration-500">Our story</button>
+                    </div>  
+                    <div>
+                        <p class="text-[#3C2769] font-normal text-[14px] leading-[21px] mb-6">Trusted by the world's best companies</p>
+                        <div class="flex gap-8">
+                            <img src="./images/hero-icon1.svg" alt="Hero text icons" width="124" height="24">
+                            <img src="./images/hero-icon2.svg" alt="Hero text icons" width="117" height="24">
+                            <img src="./images/hero-icon3.svg" alt="Hero text icons" width="118" height="24">
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

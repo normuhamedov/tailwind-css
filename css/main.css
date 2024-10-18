@@ -1,0 +1,6 @@
+.hero__section{
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 720px 790px;
+}
