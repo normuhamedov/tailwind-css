@@ -4,3 +4,8 @@
     background-position: right top;
     background-size: 720px 790px;
 }
+@media (max-width:900px){
+    .hero__section{
+        background-size: 0;
+    }
+}
